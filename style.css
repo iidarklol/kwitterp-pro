@@ -1,0 +1,47 @@
+input{ 
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid;
+}
+
+button {
+  background-color: slateblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100px;
+  border-radius: 10%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+  
+body{
+  background-color: blue;
+}
+#logo{
+ height: 50px;
+
+}
+.header{
+color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;}
+

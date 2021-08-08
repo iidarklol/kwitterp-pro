@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="kwitter.css">
+    <script src="kwitter.js"></script>
+    
+</head>
+<body>
+    <div class="align-right">
+  <button onclick="logout()" id="logout" class="btn btn-danger">logout</button>
+  <label id="usrnme"></label>  
+  </div>
+  <h1 class="header" style="color:white;">
+    Kwitter	<sup>
+  <img src="m2.png" id="logo">
+</sup>
+</h1>
+<br><br>
+<input type="text" id="Roomname" placeholder="Enter a room name!">
+<br><br>
+<button type="button" onclick="addRoom()" id="enterroom">Enter the room!</button> 
+<br><br>
+<center>
+<div id=output></div>
+</center>
+</body>
+</html>
